@@ -1,0 +1,4 @@
+invoke-command -computername E05970 -script {get-process}
+ 
+
+Restart-Computer

@@ -1,0 +1,3 @@
+Get-Counter -counter '\Processeur(_total)\% temps processeur' -maxsamples 5
+
+Get-Counter -counter '\Processeur(_total)\% temps processeur' -continuous

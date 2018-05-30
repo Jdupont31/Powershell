@@ -1,0 +1,1 @@
+﻿Limit-EventLog -LogName "security" -MaximumSize 200MB -RetentionDays 365

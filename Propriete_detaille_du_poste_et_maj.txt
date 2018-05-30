@@ -1,0 +1,4 @@
+Get-WmiObject -Class Win32_OperatingSystem | fl -property *
+
+
+Get-HotFix | ? {$_.InstalledBy -eq "LADEPECHE\users"} | ft -autosize
