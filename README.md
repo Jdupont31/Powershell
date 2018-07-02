@@ -1,3 +1,3 @@
-# Powershell script perso
+# Powershell script
 
-Script powershell pour tous un tas de choses.
+Dossier script powershell
