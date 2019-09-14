@@ -7,7 +7,7 @@
 $secpasswd = Read-Host "Entrer un mot de passe" -AsSecureString
 $user = New-Object System.Management.Automation.PSCredential ("pssvp1", $secpasswd)
 
-invoke-command  -computername e05970 -Credential $user -ScriptBlock {
+invoke-command  -computername e05914 -Credential $user -ScriptBlock {
 
  $ie=new-object -com "InternetExplorer.Application"
  $ie.fullscreen=$TRUE
