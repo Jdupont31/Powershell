@@ -8,7 +8,7 @@ $start_time = Get-Date
 while($i -le 1141)
 {
  
-    $url = "https://streamer03.myvideoplace.tv/edge/_definst_/smil:smil/archive_01/videos/01-10-19/bc2231a5ea62eb9c1917b14dd00faf7d_1569936514.smil/media_w144962242_b1200000_" + $i + ".ts"
+    $url = "urlbasename" + $i + ".ts"
     $output =  "C:\dw\"+ $i +".ts"
 
     Start-BitsTransfer -Source $url -Destination $output -Asynchronous
