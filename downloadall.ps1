@@ -1,4 +1,4 @@
-﻿Import-Module BitsTransfer
+Import-Module BitsTransfer
 
 $totaltime=0
 $i=0

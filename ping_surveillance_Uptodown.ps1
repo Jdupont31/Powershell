@@ -2,10 +2,10 @@
 
 while($true)
 {
-    if(Test-Connection -ComputerName E07099 -Count 5 -ea silentlycontinue) 
+    if(Test-Connection -ComputerName E06991 -Count 5 -ea silentlycontinue) 
         { 
          # Si hote ok.
-         write-host "Available host ---> "E07151 -BackgroundColor Green -ForegroundColor White 
+         write-host "Available host ---> "E06991 -BackgroundColor Green -ForegroundColor White 
          [Array]$available += $_ 
         } 
     else 
