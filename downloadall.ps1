@@ -2,6 +2,7 @@ Import-Module BitsTransfer
 
 $totaltime=0
 $i=0
+$ii=0
 $start_time = Get-Date
 
 #Script pour DL tous les fichiers d'une URL avec incrémentation et les placer dans C:\dw\
