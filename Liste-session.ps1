@@ -1,0 +1,1 @@
+qwinsta /server:nomduserv 

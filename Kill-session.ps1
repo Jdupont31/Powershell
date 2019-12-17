@@ -1,0 +1,1 @@
+rwinsta /server:nomduserv <SessionId>
