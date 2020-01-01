@@ -1,5 +1,5 @@
 
-$ComputerName = "E05970"
+$ComputerName = "*****"
 $secpasswd = Read-Host "Entrer un mot de passe" -AsSecureString
 
 $user = New-Object System.Management.Automation.PSCredential ("pssvp1", $secpasswd)
