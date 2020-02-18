@@ -1,0 +1,4 @@
+$folder=Get-Location
+
+
+ Get-ChildItem $folder -include .jpg,.jpe,*.jpeg -recurse -File | ForEach-Object { jpegtran -copy none -optimize -progressive -outfile $ $; write-host "OK: $_"; };
