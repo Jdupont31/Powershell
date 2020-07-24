@@ -1,0 +1,1 @@
+-NoProfile -WindowStyle Hidden -file "\\e0****\c$\Sources\Scripts\stopdisplay.ps1"
