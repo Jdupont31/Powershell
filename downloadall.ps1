@@ -5,7 +5,7 @@ $i=0
 $ii=0
 $start_time = Get-Date
 
-#Script pour DL tous les fichiers d'une URL avec incrémentation et les placer dans C:\dw\
+#Script pour DL tous les fichiers d'une URL avec incrémentation et les place dans C:\dw\ ,10 transferts simultanés sur 1141 fichiers à téléchargés + nombre de secondes écouler pour le téléchargement
 while($i -le 1141)
 {
  
@@ -14,7 +14,7 @@ while($i -le 1141)
 
     Start-BitsTransfer -Source $url -Destination $output -Asynchronous
     
-
+   
     if($ii -ge 10)
     {
         Get-BitsTransfer | Complete-BitsTransfer
